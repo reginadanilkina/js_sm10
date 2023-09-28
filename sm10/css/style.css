@@ -57,8 +57,10 @@ input[type="text"], input[type="number"] {
     width: 400px;
     height: 30px;
     margin-top: 10px;
-    border: 1px solid #ccc;
 }
 div {
     display: grid;
+}
+p {
+    width: 400px;
 }
