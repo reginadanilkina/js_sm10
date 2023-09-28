@@ -1,0 +1,64 @@
+/* Установка стилей для тела страницы */
+body {
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.error {
+    border: 2px solid red;
+}
+form {
+    display: grid;
+    gap: 5px;
+}
+button {
+    box-sizing: border-box;
+    overflow: hidden;
+    -webkit-transition: 0.15s cubic-bezier(0.32, 0, 0.59, 0.03);
+    transition: 0.15s cubic-bezier(0.32, 0, 0.59, 0.03);
+    -webkit-transition-property: color, background-color, border, border-radius, visibility;
+    transition-property: color, background-color, border, border-radius, visibility;
+    border: var(--btn-border-width, 1.5px) solid var(--btn-border-color, var(--btn-bg-color));
+    border-radius: 100px;
+    outline: none;
+    background-color: #F4AAB6;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    width: 422px;
+    height: 70px;
+    font-size: 16px;
+}
+.back_container {
+    display: flex;
+    gap: 100px;
+    height: 1080px;
+    align-items: center;
+}
+.back {
+    background: url(../img/back.png) no-repeat;
+    width: 640px;
+    height: 1080px
+}
+.container {
+    display: grid;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+div {
+    display: grid;
+}
