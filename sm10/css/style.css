@@ -13,6 +13,9 @@ form {
     display: grid;
     gap: 5px;
 }
+.birthYearErrorText {
+    color: red;
+}
 button {
     box-sizing: border-box;
     overflow: hidden;
